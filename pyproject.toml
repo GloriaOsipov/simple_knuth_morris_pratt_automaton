@@ -1,0 +1,14 @@
+[project]
+name = "simple-knuth-morris-pratt-automaton"
+version = "0.1.0"
+description = "String matching using a precomputed automaton for one lookup per input character."
+requires-python = ">=3.10"
+dependencies = []
+readme = "README.md"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
